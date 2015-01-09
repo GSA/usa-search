@@ -46,8 +46,8 @@ function usa_search_settings() {
       <tr>
         <td scope="row" aligni="left"><label>Version</label>
           <select name="search_version">
-            <option value="v1">Version 1</option>
-            <option value="v2">Version 2</option>
+            <option value="v1" '.selected( $search_version, 'v1', false ).'>Version 1</option>
+            <option value="v2" '.selected( $search_version, 'v2', false ).'>Version 2</option>
           </select></td>
       </tr>
     </tbody>
